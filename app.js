@@ -9,5 +9,6 @@ const port = 3000;
 
 // Definit la route GET '/'
 app.get('/', (req, res) => {
-  // le corps de ala fonction
+  // renvoie une chaine de caracteres au navigateur
+  res.send('Hello, Express!');
 });
